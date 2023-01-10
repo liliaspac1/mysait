@@ -1,0 +1,110 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+}
+a {
+	text-decoration: none;/*убирает подчёркивание; зачёркивание; надчёркивание*/
+}
+
+section {
+	padding-top: 113px;/*Устанавливает значение поля от верхнего края содержимого элемента.*/	
+}
+p {
+	margin: 0;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1170px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+.header {                     /*фон*/
+	background: url('../img/geografia.jpg') no-repeat center top / cover;
+	padding-top: 57px;/*Устанавливает значение поля от верхнего края содержимого элемента.*/
+	color: #fff;
+	padding-bottom: 322px;/*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+header a {/*Цвет текст меню*/
+	color: black;
+}
+.md { /*устанавливает внешний отступ справа от элемента*/
+	margin-right: 69px;
+}
+.menu {   /*меню всё в один ряд гориз*/
+	display: flex;
+}
+.menu li a {
+	text-transform: uppercase;/*все буквы преобр в заглавные*/
+	font-size: 18px;
+	letter-spacing: 0.1em;/*межбуквенное расстояние в тексте*/
+}
+.menu li {
+	margin-right: 40px;/*внешний отступ справа от элемента*/
+}
+.tel {
+	font-size: 17px;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.nav {
+	display: flex;
+	align-items: center;/*выравнивает flex-элементы текущей 
+	flex-линии таким же образом, как и justify-content , 
+	но в перпендикулярном направлении*/
+}
+.offer {
+	text-transform: uppercase;/*все буквы преобр в заглавные*/
+	margin-top: 216px;/*Устанавливает величину отступа 
+	от верхнего края элемента.*/
+}
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;/*межбуквенное расстояние в тексте*/
+}
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.description {
+	display: flex;
+	justify-content: space-between;/*определяет, как браузер распределяет 
+	пространство между и вокруг элементов контента вдоль главной
+	 оси flex контейнера, или вдоль строчной оси grid контейнера.*/
+}
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+.desc-left, .desc-right {
+	width: 550px;
+}
